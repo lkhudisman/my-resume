@@ -80,6 +80,9 @@ a:hover {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .overlay-mf {
@@ -604,7 +607,7 @@ a:hover {
   position: absolute;
 }
 
-.intro .overlay-itro {
+.intro .overlay-intro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -726,6 +729,7 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  font-weight: bold;
 }
 
 .skills-box .s-description {
@@ -791,8 +795,10 @@ a:hover {
   font-size: 1.1rem;
 }
 
-.work-content .w-more .w-ctegory {
+.work-content .w-more .w-category {
   color: #0078ff;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 .work-content .w-like {
