@@ -251,13 +251,34 @@ a:hover {
 .ico-circle {
   height: 100px;
   width: 100px;
-  font-size: 2rem;
+  font-size: 6rem;
   border-radius: 50%;
-  line-height: 1.55;
+  line-height: 1;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 5px #0078ff;
   display: block;
+}
+
+.ico-circle:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+.small-ico-circle {
+  height: 80px;
+  width: 80px;
+  font-size: 4rem;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-ico-circle i {
+  font-size: 32px;
 }
 
 /*------/ Owl Carousel /------*/
@@ -548,6 +569,10 @@ a:hover {
   outline: 0;
 }
 
+.navbar-toggler {
+  display: block !important;
+}
+
 .navbar-toggler span {
   display: block;
   background-color: #fff;
@@ -736,6 +761,36 @@ a:hover {
   color: #4e4e4e;
 }
 
+.progress-wrap {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-wrap h4 {
+  font-weight: bold;
+  color: #333;
+}
+
+.progress-wrap p {
+  font-size: 16px;
+  color: #666;
+}
+
+.progress-wrap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.progress-wrap li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -770,6 +825,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  padding-left: 1rem; /* or adjust to 1.5rem or 20px as needed */
 }
 
 .work-box:hover img {
@@ -818,6 +874,16 @@ a:hover {
 .w-title {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.work-box.d-flex {
+  align-items: center; /* Vertically center image and text */
+  gap: 1rem; /* Optional: space between image and text */
+}
+.work-img img {
+  max-width: 80px;
+  height: auto;
+  display: block;
 }
 
 /*======================================
@@ -1071,7 +1137,7 @@ a:hover {
 
 footer {
   text-align: center;
-  color: #fff;
+  color: #0078ff;
   padding-bottom: 4rem;
 }
 
@@ -1084,7 +1150,7 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #fff;
+  color: #0078ff;
 }
 
 /*======================================
