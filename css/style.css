@@ -140,7 +140,12 @@ a:hover {
 /*--/ Title A /--*/
 
 .title-box {
-  margin-bottom: 4rem;
+  border: 1px solid #f7f7f7;          /* Or match your site's color */
+  border-radius: 8px;                 /* Optional, for rounded corners */
+  background: #fff;                   /* Or match your site's background */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* Optional, for subtle shadow */
+  padding: 24px 16px;
+  margin-bottom: 24px;
 }
 
 .title-a {
