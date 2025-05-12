@@ -617,6 +617,30 @@ a:hover {
   opacity: 0.9;
 }
 
+.hamburger-icon {
+  color: white; /* White color for dark backgrounds */
+  opacity: 1;     /* Fully opaque */
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  transform: translateX(0);
+}
+
+
 /*======================================
 //--//-->   INTRO
 ======================================*/
